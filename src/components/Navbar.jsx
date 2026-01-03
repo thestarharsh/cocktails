@@ -30,7 +30,7 @@ const Navbar = () => {
       <div>
         <a href="#home" className="flex items-center gap-2">
           <img src="/images/logo.png" alt="logo" className="size-6" />
-          Velvet Pour
+          The Violet Mocks
         </a>
 
         <ul>

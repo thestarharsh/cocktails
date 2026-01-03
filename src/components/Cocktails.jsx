@@ -34,8 +34,8 @@ const Cocktails = () => {
           <h2>Popular Cocktails</h2>
 
           <ul>
-            {cocktailLists?.map((drink) => (
-              <li key={drink.id}>
+            {cocktailLists?.map((drink, index) => (
+              <li key={index}>
                 <div className="md:me-28">
                   <h3>{drink.name}</h3>
                   <p>{drink.country} | {drink.detail}</p>
